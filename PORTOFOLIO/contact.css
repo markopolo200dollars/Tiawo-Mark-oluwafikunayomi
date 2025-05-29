@@ -1,0 +1,106 @@
+body{
+background-image: url(background1.jpg);
+background-size: cover;
+padding: 5px;
+}
+.top-side{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    width: 100px;
+}
+.nav-bar{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    text-align: center;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: gray;
+    margin-left: 130px;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    margin: 10px;
+    cursor: pointer;
+}
+.btn-a{
+    border: none;
+    padding: 15px;
+    background-color: greenyellow;
+    color: #000;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    cursor: pointer;
+}
+.body{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: mediumorchid;
+    gap: 150px;
+    padding: 20px;
+    max-width: 720px;
+}
+.ichi{
+    background-color: palevioletred;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+}
+.ni{
+    background-color: plum;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+}
+.mail1{
+    text-decoration: none;
+}
+.input1{
+    background-color: peachpuff;
+    border: 5px solid black;
+    padding: 15px;
+    width: 250px;
+    border-radius: 15px;
+    color: black;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.input2{
+    background-color: peachpuff;
+    border: 5px solid black;
+    padding: 15px;
+    width: 250px;
+    border-radius: 15px;
+    color:black;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.input3{
+    background-color: peachpuff;
+    border: 5px solid black;
+    padding: 15px;
+    width: 250px;
+    border-radius: 15px;
+    color: black;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.btn-c{
+    margin-right: 160px;
+    padding: 15px;
+    border: none;
+    color:black;
+    background-color: red;
+    border-radius: 50px;
+}
+.second{
+    flex-wrap: wrap;
+}
